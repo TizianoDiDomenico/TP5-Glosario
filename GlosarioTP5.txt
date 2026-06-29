@@ -1,0 +1,36 @@
+Glosario de Sistemas de Información
+Di Domenico Tiziano · Kremer Julian · Herrera Tomas
+Microservicios
+Definición: Los microservicios son un estilo de arquitectura de software en el que una aplicación grande se divide en pequeñas partes independientes, cada una con su propia responsabilidad y ciclo de vida.
+Ejemplo: Una aplicación de streaming divide sus funciones en servicios independientes: uno para usuarios, otro para pagos, otro para recomendaciones y otro para la reproducción de videos.
+Aplicación Monolítica
+Definición: En el desarrollo de software, una aplicación monolítica es un sistema creado en una sola pieza unificada. Todo el código, la base de datos y la interfaz de usuario están acoplados en un solo programa.
+Ejemplo: Un sistema de gestión escolar donde el registro de alumnos, las calificaciones, la asistencia y la interfaz gráfica forman parte de un único programa.
+Módulo
+Definición: Un módulo es una parte de un programa o software que realiza una función específica y que puede funcionar de manera independiente o conectarse a otros módulos para formar una aplicación más grande.
+Ejemplo: En una tienda online, el módulo de inventario se encarga únicamente de controlar el stock de productos y se conecta con otros módulos del sistema.
+Arquitectura Cliente-Servidor
+Definición: La arquitectura Cliente-Servidor es un modelo donde los clientes (navegadores, apps) solicitan recursos y el servidor responde. Centraliza datos y lógica en el servidor.
+Ejemplo: Un usuario abre una página web desde su navegador (cliente), envía una solicitud al servidor y este responde enviando la información solicitada.
+Arquitectura de Sistemas de Información
+Definición: La arquitectura de sistemas de información define la estructura, el comportamiento y la interacción de los componentes de un sistema. Sirve como guía para diseñar y organizar los elementos tecnológicos de una organización.
+Ejemplo: El diseño de un sistema bancario que especifica cómo se conectan las aplicaciones móviles, los servidores de transacciones y las bases de datos de clientes.
+Escalabilidad
+Definición: La escalabilidad es la capacidad de un sistema, red o empresa para manejar un aumento en la carga de trabajo o la demanda sin perder rendimiento, y sin requerir un aumento proporcional en los costos.
+Ejemplo: Una red social que normalmente atiende a miles de usuarios puede aumentar sus recursos para soportar millones de usuarios sin perder rendimiento.
+Cloud Computing
+Definición: El cloud computing es el acceso bajo demanda a recursos informáticos (servidores físicos o virtuales, almacenamiento de datos, capacidades de red, herramientas de desarrollo, software, etc.) a través de Internet con precios de pago por uso.
+Ejemplo: Una empresa guarda sus archivos en un servicio de almacenamiento en la nube como Google Drive, accediendo a ellos por Internet sin necesidad de tener servidores propios.
+Modelos de servicio:
+IaaS (Infraestructura como Servicio): El proveedor otorga el hardware y la red; el cliente gestiona la plataforma y los datos/aplicaciones. Ejemplo: AWS.
+PaaS (Plataforma como Servicio): El proveedor otorga la infraestructura + sistema operativo y entorno; el cliente pone los datos/aplicaciones. Ejemplo: Heroku.
+SaaS (Software como Servicio): El proveedor otorga la infraestructura, plataforma y el software; el cliente solo configura y usa el servicio. Ejemplo: Netflix.
+Arquitectura de Tres Capas
+Definición: Es un tipo de arquitectura que divide el sistema en tres capas independientes, lo que permite modificar una capa sin afectar las otras. Las capas son: Presentación (lo que el usuario ve), Lógica (los procesos, reglas y validaciones) y Datos (el almacenamiento y bases de datos).
+Ejemplo: Mercado Libre: la vista de la app (presentación) → el carrito de compras (lógica) → la base de datos de productos (datos).
+Arquitectura Orientada a Servicios (SOA)
+Definición: La Arquitectura Orientada a Servicios (SOA) organiza un sistema en servicios independientes que se comunican entre sí para realizar distintas funciones. Cada servicio es autónomo y expone una interfaz clara para interactuar con el resto.
+Ejemplo: Un restaurante donde el mesero es un servicio, la cocina es otro servicio y la caja es otro servicio; cada uno opera de forma independiente pero colabora para atender al cliente.
+Arquitectura Distribuida
+Definición: La arquitectura distribuida es un modelo en el que varias computadoras o nodos trabajan juntas y se comunican por una red para formar un solo sistema. Mejora la disponibilidad y el rendimiento al repartir la carga entre múltiples equipos.
+Ejemplo: Un supermercado donde una persona (computadora) cobra a los clientes y otra controla el stock; ambas trabajan de forma coordinada como un único sistema.
